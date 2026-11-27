@@ -2,7 +2,8 @@
 
 ## Tools and models
 
-- **Claude Code** (Anthropic, model Claude Opus 5.5) inside VS Code, as an agent with access to the repo, a terminal and Playwright.
+- **My own QA agent**, which I built on top of **Claude Code** (Anthropic, model Claude Opus 5.5) and run inside VS Code, with access to the repo, a terminal and Playwright.
+- The agent works with my own QA rules and workflow: every expected value needs a source, nothing is reported as a bug unless it can be reproduced, and nothing is marked as passing without evidence. The agent itself (its configuration and instructions) is private and not part of this repo.
 - No other AI tools.
 
 ## What I delegated to AI
